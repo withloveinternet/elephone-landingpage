@@ -1,0 +1,374 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'proximanova'; }
+
+h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+.elephone-logo:before {
+  font-family: 'elephone';
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  font-size: 39px;
+  content: '\e800'; }
+
+.social i {
+  font-size: 20px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  margin-right: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #568996;
+  text-align: center;
+  behavior: url("/js/PIE.htc"); }
+
+.outer {
+  background-image: url("/images/background-section3.png");
+  background-position: 60% bottom;
+  background-repeat: no-repeat; }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+    .outer {
+      background-image: url("/images/background-section3@2x.png");
+      background-size: auto 1143px; } }
+
+.inner {
+  background-image: url("/images/waves.png");
+  background-position: center bottom;
+  background-repeat: no-repeat; }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+    .inner {
+      background-image: url("/images/waves@2x.png");
+      background-size: auto 700px; } }
+
+.wrapper {
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #EDEDED), color-stop(1, #FFFFFF));
+  background-image: -o-linear-gradient(left top, #EDEDED 0%, #FFFFFF 100%);
+  background-image: -moz-linear-gradient(left top, #EDEDED 0%, #FFFFFF 100%);
+  background-image: -webkit-linear-gradient(left top, #EDEDED 0%, #FFFFFF 100%);
+  background-image: -ms-linear-gradient(left top, #EDEDED 0%, #FFFFFF 100%);
+  background-image: linear-gradient(to left top, #ededed 0%, #ffffff 100%); }
+
+.placeholder {
+  color: #000; }
+
+.error-message {
+  background-color: red;
+  color: #fff;
+  max-width: 450px;
+  margin: 0px auto;
+  margin-top: 20px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px;
+  display: none; }
+
+@font-face {
+  font-family: 'proximanova';
+  src: url("../fonts/proximanova/proximanova-light-webfont.eot");
+  src: url("../fonts/proximanova/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova/proximanova-light-webfont.woff") format("woff"), url("../fonts/proximanova/proximanova-light-webfont.ttf") format("truetype"), url("../fonts/proximanova/proximanova-light-webfont.svg?#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'elephone';
+  src: url("../fonts/elephone/elephone.eot");
+  src: url("../fonts/elephone/elephone.eot?#iefix") format("embedded-opentype"), url("../fonts/elephone/elephone.woff") format("woff"), url("../fonts/elephone/elephone.ttf") format("truetype"), url("../fonts/elephone/elephone.svg?#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.btn {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #fff;
+  width: 100%;
+  text-transform: uppercase; }
+
+.btn:hover {
+  color: #fff; }
+
+.top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 12px;
+  z-index: 100; }
+  .top .social {
+    float: right;
+    margin-top: 35px; }
+  .top .logo {
+    float: left;
+    margin-top: 10px;
+    background-color: #558794;
+    background: rgba(85, 135, 148, 0.7);
+    behavior: url("/js/PIE.htc");
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px; }
+    .top .logo i {
+      margin: 0px auto;
+      text-align: center;
+      display: block; }
+    .top .logo .elephone-logo:before {
+      font-family: 'elephone';
+      font-style: normal;
+      font-weight: normal;
+      color: #fff;
+      font-size: 39px;
+      content: '\e800'; }
+  @media screen and (max-width: 992px) {
+    .top .logo {
+      height: 60px;
+      width: 60px;
+      padding-top: 0px; }
+      .top .logo .elephone-logo:before {
+        font-size: 25px;
+        margin-top: 0px;
+        padding: 0px; }
+      .top .logo h2 {
+        margin-top: 13px;
+        padding: 0px; }
+      .top .logo i {
+        margin: 0px;
+        padding: 0px; }
+    .top .social i {
+      margin-top: 20px; } }
+
+.hero {
+  position: relative;
+  text-align: center;
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: url("../images/background.jpg") top center no-repeat;
+  -ms-behavior: url(../js/backgroundsize.min.htc);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* FONT OF THE TITLE AND THE SUBTITLE */
+  /* SUBSCRIBE TO THE NEWSLETTER */
+  /* ARROW ON THE  BOTTOM TO SCROLL */ }
+  .hero .hero-content {
+    display: table-cell;
+    vertical-align: middle; }
+  .hero .hero-inner {
+    max-width: 700px;
+    display: none; }
+  .hero .hero-thanks {
+    max-width: 700px; }
+    .hero .hero-thanks h1 {
+      margin-top: 20px;
+      font-size: 50px;
+      color: #fff; }
+    .hero .hero-thanks p {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      color: #fff; }
+  .hero .title {
+    color: #fafcfc;
+    font-size: 30px;
+    font-weight: 100; }
+  .hero .subtitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 35px 0px;
+    color: #91b3bd; }
+  .hero .input-group {
+    max-width: 450px;
+    margin: 0px auto; }
+  .hero .subscribe-input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 70px;
+    height: 70px;
+    font-size: 25px;
+    outline: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"; }
+  .hero .subscribe-input:focus {
+    background-color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    color: #000; }
+  .hero .subscribe-input:focus {
+    outline: none; }
+  .hero ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #baced3; }
+  .hero :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #baced3;
+    opacity: 1; }
+  .hero .subscribe-btn {
+    background-color: #f2854c;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    height: 70px;
+    color: #fff;
+    font-size: 35px;
+    width: 60px;
+    font-family: 'FontAwesome'; }
+  .hero .hero-scroll {
+    bottom: 0px;
+    position: absolute;
+    left: 0;
+    right: 0; }
+    .hero .hero-scroll i {
+      color: #fff;
+      font-size: 40px;
+      margin: 15px 0px; }
+  @media screen and (max-width: 992px) {
+    .hero .title {
+      font-size: 20px; }
+    .hero .subtitle {
+      font-size: 15px;
+      margin: 20px 0px; }
+    .hero .subscribe-btn {
+      height: 45px;
+      font-size: 20px; }
+    .hero .subscribe-input {
+      height: 45px;
+      line-height: 45px;
+      font-size: 16px; } }
+
+.navigation {
+  background-color: #459cb3;
+  position: fixed;
+  -webkit-transition: all 1s ease;
+  box-shadow: 0px 1px 10px #aaa;
+  top: -75px;
+  width: 100%; }
+  .navigation .navbar-brand {
+    margin: 10px; }
+  .navigation .navbar-right a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 6px 20px; }
+  .navigation .navbar-right a:hover {
+    background-color: transparent; }
+  .navigation .navbar-right a:focus {
+    background-color: transparent; }
+  .navigation .navbar-right li {
+    margin: 20px 0px;
+    padding: 0px; }
+  .navigation .navbar-right .list-subscribe {
+    margin-left: 15px;
+    background-color: #3c879b;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; }
+  .navigation .navbar-elephone {
+    margin-bottom: 0px; }
+
+.navigation.affix {
+  top: 0px;
+  display: block;
+  z-index: 100000; }
+
+.main-content .identify {
+  padding-top: 140px;
+  text-align: center; }
+  .main-content .identify h1 {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto; }
+  .main-content .identify p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto; }
+  .main-content .identify img {
+    margin: 0px auto; }
+  .main-content .identify .video-identify {
+    width: 100%; }
+.main-content .dialer {
+  margin-top: 200px; }
+  .main-content .dialer .dialer-text {
+    position: relative;
+    margin: 0px auto; }
+  .main-content .dialer .dialer-image {
+    z-index: 0;
+    position: relative;
+    margin-left: -500px;
+    margin-top: -100px; }
+.main-content .privacy {
+  margin-top: 200px; }
+  .main-content .privacy .privacy-text {
+    float: left;
+    margin-top: 350px;
+    max-width: 400px; }
+    .main-content .privacy .privacy-text p {
+      color: #ddd; }
+    .main-content .privacy .privacy-text h1 {
+      color: #fff; }
+    @media screen and (max-width: 992px) {
+      .main-content .privacy .privacy-text {
+        margin-top: 0px;
+        text-align: center;
+        max-width: 400px;
+        margin: 0px auto;
+        float: none; } }
+  .main-content .privacy .privacy-image {
+    float: right;
+    margin-top: 0px;
+    text-align: right; }
+    .main-content .privacy .privacy-image img {
+      margin: 0px auto; }
+    @media screen and (max-width: 992px) {
+      .main-content .privacy .privacy-image {
+        float: none;
+        text-align: center; } }
+  @media screen and (max-width: 992px) {
+    .main-content .privacy {
+      margin-top: 100px; } }
+.main-content h1 {
+  color: #505050;
+  line-height: 43px; }
+.main-content p {
+  font-size: 23px;
+  margin-top: 35px;
+  color: #b5b5b5;
+  line-height: 30px; }
+@media screen and (max-width: 992px) {
+  .main-content p {
+    font-size: 18px;
+    margin-top: 10px; }
+  .main-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0px; } }
+
+.footer {
+  margin-top: 150px;
+  padding-bottom: 140px; }
+  .footer input {
+    height: 50px;
+    line-height: 40px; }
+  .footer .btn-subscribe {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    border: 1px solid #fff; }
+  .footer h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 24px; }
+
+@media screen and (max-width: 992px) {
+  .footer {
+    padding-bottom: 50px;
+    margin-top: 250px; } }

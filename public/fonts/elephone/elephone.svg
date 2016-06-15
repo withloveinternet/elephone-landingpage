@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="elephone-logo" unicode="&#xe800;" d="m722 53c0 0-286 322-198 689 0 0 3 10 10 24h-105-108c-177 0-321-161-321-359v-373-38-56-50c0-22 16-40 35-40h95 41 3v0c18 2 33 19 33 40v50c0 63 46 115 103 115 1 0 2 0 3 0h116c56-1 100-53 100-115v-50c0-22 16-40 36-40h138c20 0 36 18 36 40v50c0 32 12 62 31 83-15 7-32 17-48 30z m336 797h-246l18-78c0 0 22-79-49-97l-65-18c0 0-46-18-43-63 0 0 61-315 120-361 0 0 39-29 80-4 0 0 94 54 118-7l51-93c8-14 14-31 10-47-5-19-19-44-56-58 0 0-12-6-32-12 35-40 23-75 23-103v-19c0-22 16-40 35-40h36c72 0 130 66 130 146v708c0 80-58 146-130 146z m-64-363c-2-5-4-10-8-15-4-5-9-9-16-12-6-4-14-5-24-5-15 0-26 4-33 12-8 8-13 19-16 35h100c-1-4-1-9-3-15z" horiz-adv-x="1191" />
+</font>
+</defs>
+</svg>
